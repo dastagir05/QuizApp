@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: quizapp
+
+  datasource:
+    url: jdbc:postgresql://ep-small-wind-a1h9fxm3-pooler.ap-southeast-1.aws.neon.tech/neondb?user=neondb_owner&password=npg_68azqARbjJOV&sslmode=require&channelBinding=require
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
